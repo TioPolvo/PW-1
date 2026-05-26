@@ -12,10 +12,15 @@ async function carregarPagina(pagina){
 
         const html = await resposta.text();
 
+        document.getElementById("conteudo").innerHTML = html;
+
+    }catch(erro){
+
         document.getElementById("contudo").innerHTML = `  
             <h2>Erro</h2>
             <p>Não foi possível carregar a Pagina.</p>
         `;
+        
         console.error(erro);
     }
 }
@@ -25,5 +30,3 @@ async function carregarPagina(pagina){
 window.onload =  () => {
     carregarPagina('pages/home.html');    
 }
-        
-
