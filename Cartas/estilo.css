@@ -1,8 +1,8 @@
 
  
- body {
+body {
   background-color: black;
-      display: flex;
+    display: flex;
     flex-wrap: wrap;
     gap: 10px;
     margin: 0;
@@ -10,31 +10,143 @@
  } 
 
 
-.cards_all{
+.card_jasper {
   width: 300px;
   height: 200px;
-  border: 5px solid purple;
+  border: 5px solid rgb(129, 129, 21);
 }
 
 
 .carta_1 {
   width: 310px;
   height: 400px;
-  background-color: slateblue;
-  border: 5px solid rgb(54, 1, 90);
+  background-color: rgb(70, 8, 8);
+  border: 5px solid orange;
   color: white;
   font-family: sans-serif;
 }
 
 
- .carta_2 {
+
+.carta_2 {
   width: 310px;
   height: 400px;
-  background-color: slateblue;
-  border: 5px solid rgb(54, 1, 90);
+  background-color: blue;
+  border: 5px solid rgb(14, 0, 73);
   color: white;
   font-family: sans-serif;
 
 }
 
 
+.card_diamonds {
+  width: 300px;
+  height: 200px;
+  border: 5px solid rgb(0, 161, 167);
+}
+
+
+.card_garnet {
+  width: 300px;
+  height: 200px;
+  border: 5px solid rgb(46, 10, 8);
+}
+
+.carta_3 {
+  width: 310px;
+  height: 400px;
+  background-color: rgba(102, 19, 91, 0.596);
+  border: 5px solid rgb(111, 5, 121);
+  color: white;
+  font-family: sans-serif;
+}
+
+.card_peridot {
+  width: 300px;
+  height: 200px;
+  border: 5px solid rgb(5, 143, 58);
+}
+
+.carta_4 {
+  width: 310px;
+  height: 400px;
+  background-color: rgba(3, 112, 30, 0.596);
+  border: 5px solid rgb(8, 155, 106);
+  color: white;
+  font-family: sans-serif;
+}
+
+.card_lars {
+  width: 300px;
+  height: 200px;
+  border: 5px solid rgb(163, 75, 159);
+}
+
+.carta_5 {
+  width: 310px;
+  height: 400px;
+  background-color: rgba(0, 0, 0, 0.596);
+  border: 5px solid rgb(155, 8, 111);
+  color: white;
+  font-family: sans-serif;
+}
+
+.card_opal {
+  width: 300px;
+  height: 200px;
+  border: 5px solid rgb(163, 194, 209);
+}
+
+.carta_6 {
+  width: 310px;
+  height: 400px;
+  background-color: rgb(194, 182, 182);
+  border: 5px solid rgb(243, 186, 225);
+  color: white;
+  font-family: sans-serif;
+}
+
+.card_leon {
+  width: 300px;
+  height: 200px;
+  border: 5px solid rgb(121, 21, 91);
+}
+
+.carta_7 {
+  width: 310px;
+  height: 400px;
+  background-color: rgb(194, 0, 107);
+  border: 5px solid rgb(255, 0, 221);
+  color: white;
+  font-family: sans-serif;
+}
+
+.card_Obsidiana {
+  width: 960px;
+  height: 300px;
+  border: 5px solid rgb(156, 72, 3);
+}
+
+.carta_8 {
+  width: 970px;
+  height: 400px;
+  background-color: rgb(61, 30, 1);
+  border: 5px solid rgb(112, 51, 2);
+  color: white;
+  font-family: sans-serif;
+}
+
+.card_alexandrite {
+  width: 300px;
+  height: 600px;
+  border: 5px solid rgb(81, 2, 88);
+}
+
+.carta_9 {
+  width: 310px;
+  height: 750px;
+  background-color: rgb(37, 2, 77);
+  border: 5px solid rgb(103, 255, 255);
+  color: white;
+  font-family: sans-serif;
+}
